@@ -23,7 +23,7 @@ public class Course {
     mentorList.remove(m);
   }
 
-  public void removeMentor(Person s){
+  public void removeStudent(Person s){
     StudentList.remove(s);
   }
 
@@ -45,3 +45,4 @@ public class Course {
       StudentList.add(i,s); 
     }
   }
+}
